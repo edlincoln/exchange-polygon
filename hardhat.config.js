@@ -6,7 +6,7 @@ module.exports = {
   networks: {
     hardhat: {
       forking: {
-        url: 'https://polygon-mumbai.infura.io/v3/7c06285fa5304a50a13aa9d3c5ccc40c'
+        url:  `${process.env.INFURA_POLYGON}`,
       }
     }
   }
